@@ -31,9 +31,20 @@
     </script>
     <script data-ad-client="ca-pub-4985976658942026" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- googleadsense -->
-    <script src="http://mouldboard.soword.cn/chat.js"></script>
-  </head>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $("p").append(" <b>追加文本</b>。");
+  });
 
+  $("#btn2").click(function(){
+    $("ol").append("<li>追加列表项</li>");
+  });
+});
+</script>
+  </head>
   <body id="page-top">
 
     <!-- googleadsense -->
@@ -388,11 +399,6 @@
     <script src="js/creative.min.js"></script>
     <!-- baidu article push and tongji-->
    <script>
-   $(document).ready(function(){
-
-    $("#mainNav").append("<li>追加列表项</li>");
-
-});
     (function(){
       var bp = document.createElement('script');
       var curProtocol = window.location.protocol.split(':')[0];
@@ -415,5 +421,5 @@
       })();
      </script>
   </body>
-  <script src="http://mouldboard.soword.cn/jquery-3.3.1.min.js"></script>
+  
 </html>
