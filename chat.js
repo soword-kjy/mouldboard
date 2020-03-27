@@ -1,3 +1,5 @@
 $(document).ready(function(){
-    $("body").append(" <b>追加文本</b>。");
+
+    $("body").append("<li>追加列表项</li>");
+
 });
