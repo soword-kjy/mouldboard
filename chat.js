@@ -1,4 +1,4 @@
 var div = document.createElement('div');
-div.innerHTML = '<h1>525</h1>';
+div.innerHTML = '<div style="position: fixed;top: 200px;right: 0;background: #f1e6b2;border-radius: 20px;"><ul style="width: 120px;height: 85px;"><li style="list-style: none;float: left;height: 30px;line-height: 30px;"><a style="color: #797979;" href="http://www.soword.cn/" target="_blank">soword科技言</a></li><li style="list-style: none;float: left;height: 30px;line-height: 30px;"><a style="color: #797979;"  href="http://www.soword.cn/mouldboard/" target="_blank">更多模板</a></li><li style="list-style: none;float: left;height: 30px;line-height: 30px;"><a style="color: #797979;"  href="http://www.soword.cn/search/" target="_blank">搜索模板</a></li></ul></div>';
 var bo = document.body;
 bo.insertBefore(div,bo.lastChild);
